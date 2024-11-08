@@ -40,43 +40,54 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Zawad - Fullstack Developer Portfolio",
+    title: "Zawad - 3D portfolio",
     fullName: "Abdullah Al Zawad",
     email: "zawad@devsnest.llc",
   },
   hero: {
     name: "Zawad",
-    p: [
-      "I'm a fullstack web developer",
-      "I build dynamic, scalable web applications",
-    ],
+    p: ["I am a fullstack web developer", "i develop dynamic, scalble web applications"],
+  },
+  contact: {
+    p: "Get in touch",
+    h2: "Contact.",
+    form: {
+      name: {
+        span: "Your Name",
+        placeholder: "What's your name?",
+      },
+      email: { span: "Your Email", placeholder: "What's your email?" },
+      message: {
+        span: "Your Message",
+        placeholder: "What do you want to say?",
+      },
+    },
   },
   sections: {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a seasoned software developer with expertise in TypeScript, JavaScript, 
-      and frameworks like React, Node.js, and Three.js. I'm passionate about building 
-      efficient and scalable web solutions that bring ideas to life.`,
+      content: `I'm a skilled software developer with experience in TypeScript and
+      JavaScript, and expertise in frameworks like React, Node.js, and. I develop dynamic, scalble web applications and collaborate closely with clients to
+      create efficient, scalable, and user-friendly solutions that solve
+      real-world problems. Let's work together to bring your ideas to life!`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
-      content: `3 years of real-world development experience, including work at Ecom Propeller, where I honed my 
-      skills in web development and project management.`,
     },
     feedbacks: {
-      p: "Client Feedback",
-      h2: "What Clients Say.",
-      content: `“Working with Zawad was a game-changer. His ability to understand complex requirements 
-      and translate them into efficient solutions was outstanding. His commitment to delivering high-quality work is unparalleled.”`,
+      p: "What others say",
+      h2: "Testimonials.",
     },
     works: {
-      p: "My Projects",
-      h2: "Showcase.",
-      content: `This project is a testament to my skills in integrating LLMs into practical applications. 
-      I collaborated closely with the client (you!) to create a chat UI using the LLaMA model, seamlessly hosted on a cloud service.`,
+      p: "My work",
+      h2: "Projects.",
+      content: `Following projects showcases my skills and experience through
+    real-world examples of my work. Each project is briefly described with
+    links to code repositories and live demos in it. It reflects my
+    ability to solve complex problems, work with different technologies,
+    and manage projects effectively.`,
     },
   },
 };
- 
