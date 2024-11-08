@@ -195,9 +195,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Shopify bundles App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A shopify app which allows you to sell products in bundles at a discounted price.",
     tags: [
       {
         name: "react",
@@ -213,41 +213,29 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/coderzawad/Shopify-bundles-App-Remake-2-",
   },
   {
-    name: "Job IT",
+    name: "DateTimeExtensions",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "DateTimeExtensions is a powerful C# library that extends the functionality of System.DateTime and System.DateTimeOffset. It provides a set of useful methods for working with dates and times, making your code more expressive and easier to read.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "C",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/coderzawad/DateTimeExtensions",
   },
   {
-    name: "Trip Guide",
+    name: "Simple English Programming Language",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+      "The SimpleEnglishInterpreter is a JavaScript-based interpreter for a simple programming language designed to execute commands written in plain English. The interpreter can handle variable creation, arithmetic operations, conditional statements, and loops.",
+    tags: [ 
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "js",
+        color: "yellow-text-gradient",
       },
       {
         name: "css",
@@ -255,7 +243,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/coderzawad/Simple-English-programming-language",
   },
 ];
 
